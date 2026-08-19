@@ -34,7 +34,7 @@ flowchart TD
     SY --> FP["FP Likelihood %"]
     SY --> AC["Recommended Action"]
 
-    RT -.batch mode, vs. ground truth.-> GT["Aggregate Metrics<br/>FP cleared / fraud caught / fraud missed"]
+    RT -. "batch mode, vs ground truth" .-> GT["Aggregate Metrics<br/>FP cleared / fraud caught / fraud missed"]
 
     classDef thesis fill:#3a1414,stroke:#dc2626,color:#f5c2c2
     classDef antithesis fill:#12301c,stroke:#16a34a,color:#bdeecb
